@@ -1,0 +1,1 @@
+export function trackEvent(name:string, payload:Record<string, unknown>={}){ void name; void payload; /* TODO: wire GA4, Meta Pixel, Google Ads conversions, scorecard start/complete, audit submit, CTA clicks, calculator interactions, and UTM capture. */ }
