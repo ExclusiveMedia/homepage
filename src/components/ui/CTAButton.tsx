@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export function CTAButton({href='/scorecard',children,secondary=false}:{href?:string;children:React.ReactNode;secondary?:boolean}){return <Link className={`focus-ring inline-flex items-center justify-center rounded-full px-5 py-3 text-sm font-bold transition hover:-translate-y-0.5 ${secondary?'border border-white/20 text-bone hover:border-teal':'bg-teal text-charcoal shadow-glow hover:bg-white'}`} href={href}>{children}</Link>}

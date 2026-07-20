@@ -1,0 +1,1 @@
+export function ComplianceNotice({children}:{children:React.ReactNode}){return <div className="rounded-2xl border border-gold/35 bg-gold/10 p-4 text-sm text-bone/85"><strong className="text-gold">Compliance note:</strong> {children}</div>}
