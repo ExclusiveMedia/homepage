@@ -1,0 +1,2 @@
+import { FAQAccordion } from '@/components/interactive/FAQAccordion';import { SectionHeading } from '@/components/ui/SectionHeading';import { faqs } from '@/content/site';
+export default function Page(){return <section className="grid-bg px-4 py-20"><SectionHeading eyebrow="FAQ" title="Expanded questions about Digital Growth Architecture" body="Answers are written to clarify fit, scope, co-existence, compliance, and next steps."/><FAQAccordion items={faqs}/></section>}

@@ -1,0 +1,2 @@
+import { site } from '@/content/site';import { SectionHeading } from '@/components/ui/SectionHeading';
+export default function Page(){return <section className="grid-bg px-4 py-20"><SectionHeading eyebrow="Internal checklist" title="Business, proof, legal, TCPA, 10DLC, and regulated-industry launch checklist" body="Use before making the website public or enabling live automations."/><ul className="mx-auto grid max-w-5xl gap-3">{site.legalQuestions.map(q=><li className="card rounded-2xl p-4" key={q}>☐ {q}</li>)}</ul></section>}

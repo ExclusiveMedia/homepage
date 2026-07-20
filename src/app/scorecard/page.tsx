@@ -1,0 +1,2 @@
+import { ScorecardForm } from '@/components/interactive/ScorecardForm';import { SectionHeading } from '@/components/ui/SectionHeading';
+export default function Page(){return <section className="grid-bg px-4 py-20"><SectionHeading eyebrow="Growth Leak Scorecard" title="Diagnose Attract, Convert, Serve, and Grow in three minutes" body="Built for established service businesses that need to find where leads, appointments, reviews, and attribution are falling through the cracks."/><div className="mx-auto max-w-6xl"><ScorecardForm/></div></section>}
