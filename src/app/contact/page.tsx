@@ -1,0 +1,2 @@
+import { AuditApplicationForm } from '@/components/forms/AuditApplicationForm';import { SectionHeading } from '@/components/ui/SectionHeading';
+export default function Page(){return <section className="grid-bg px-4 py-20"><SectionHeading eyebrow="Contact / Apply" title="Apply for a Growth Architecture Audit" body="Tell us where the system is leaking. The form is a safe stub until backend and compliance approvals are complete."/><div className="mx-auto max-w-5xl"><AuditApplicationForm/></div></section>}

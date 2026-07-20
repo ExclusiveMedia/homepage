@@ -1,0 +1,2 @@
+'use client';import { useState } from 'react';
+export function FAQAccordion({items}:{items:string[][]}){const[open,setOpen]=useState(0);return <div className="mx-auto max-w-4xl divide-y divide-white/10 rounded-3xl border border-white/10">{items.map(([q,a],i)=><div key={q}><button className="focus-ring flex w-full justify-between p-5 text-left font-bold" onClick={()=>setOpen(open===i?-1:i)} aria-expanded={open===i}>{q}<span>{open===i?'−':'+'}</span></button>{open===i&&<p className="px-5 pb-5 text-mist/80">{a}</p>}</div>)}</div>}
