@@ -12,7 +12,7 @@ npm run dev
 
 ## Static HTML fallback
 
-This repo includes static-hosting compatible HTML pages at the root (`index.html`, `scorecard/index.html`, `audit/index.html`, etc.) so traditional hosts that only serve uploaded files do not 404 on CTAs. The production Next.js homepage remains `src/app/page.tsx`. Regenerate the static fallback with `node scripts/generate-static-site.mjs`.
+This repo includes a root `index.html` so non-Next reviewers can open a lightweight static preview directly. The production Next.js homepage remains `src/app/page.tsx`.
 
 ## Verify
 
